@@ -53,7 +53,7 @@
   </head>
   <body class="font-lato lg:px-0">
     <!-- Header section -->
-    <header class="container mx-auto px-5 ">
+    <header class="container mx-auto px-5">
       <!-- nav section -->
       <nav class="max-w-7xl mx-auto my-12">
         <div
@@ -105,35 +105,39 @@
             <a class="btn btn-ghost normal-case text-xl">Fruit Burst</a>
           </div>
           <div class="navbar-end pr-3">
-            <div class="relative">
-              <input
-                type="text"
-                placeholder="Search"
-                class="input input-bordered w-full pr-16 rounded-full"
-              />
-              <button
-                class="btn bg-white absolute top-0 right-0 rounded-full border-0"
-              >
-                <i
-                  class="fa-solid fa-magnifying-glass fa-lg"
-                  style="color: #030303"
-                ></i>
-              </button>
+            <div class="hidden lg:contents md:contents">
+              <div class="relative">
+                <input
+                  type="text"
+                  placeholder="Search"
+                  class="input input-bordered w-full md:w-48 pr-16 rounded-full"
+                />
+                <button
+                  class="btn bg-white absolute top-0 right-0 rounded-full border-0"
+                >
+                  <i
+                    class="fa-solid fa-magnifying-glass fa-lg"
+                    style="color: #030303"
+                  ></i>
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </nav>
       <!-- Exotic testes section -->
-      <section class="max-w-7xl mx-auto">
+      <section class="max-w-7xl mx-auto relative lg:mb-64">
         <div class="carousel w-full">
           <!-- slide 1 -->
           <div
             id="slide1"
-            class="carousel-item relative w-full h-[600px] bg-[url('images/banner1.png')] mix-blend-darken"
+            class="carousel-item relative w-full bg-[url('images/banner1.png')] mix-blend-darken"
           >
             <div class="flex items-center lg:ml-80 lg:mt-24 z-20">
               <div class="lg:max-w-2xl text-white text-center">
-                <h2 class="text-7xl font-extrabold mb-4">
+                <h2
+                  class="text-4xl lg:text-7xl md:text-7xl font-extrabold mb-4"
+                >
                   Exotic tastes at your doorstep
                 </h2>
                 <p class="text-lg font-normal mb-6">
@@ -162,7 +166,9 @@
           >
             <div class="flex items-center lg:ml-80 lg:mt-24 z-20">
               <div class="lg:max-w-2xl text-white text-center">
-                <h2 class="text-7xl font-extrabold mb-4">
+                <h2
+                  class="text-4xl lg:text-7xl md:text-7xl font-extrabold mb-4"
+                >
                   Exotic tastes at your doorstep
                 </h2>
                 <p class="text-lg font-normal mb-6">
@@ -192,7 +198,9 @@
           >
             <div class="flex items-center lg:ml-80 lg:mt-24 z-20">
               <div class="lg:max-w-2xl text-white text-center">
-                <h2 class="text-7xl font-extrabold mb-4">
+                <h2
+                  class="text-4xl lg:text-7xl md:text-7xl font-extrabold mb-4"
+                >
                   Exotic tastes at your doorstep
                 </h2>
                 <p class="text-lg font-normal mb-6">
@@ -220,7 +228,9 @@
           >
             <div class="flex items-center lg:ml-80 lg:mt-24 z-20">
               <div class="lg:max-w-2xl text-white text-center">
-                <h2 class="text-7xl font-extrabold mb-4">
+                <h2
+                  class="text-4xl lg:text-7xl md:text-7xl font-extrabold mb-4"
+                >
                   Exotic tastes at your doorstep
                 </h2>
                 <p class="text-lg font-normal mb-6">
@@ -242,10 +252,37 @@
             ></div>
           </div>
         </div>
+        <!-- catagory section -->
+        <div class="hidden lg:contents">
+          <div
+            class="absolute flex justify-between items-center gap-24 mx-16 bg-white text-center px-16 -bottom-32 shadow-xl py-12"
+          >
+            <div>
+              <img src="images/fruit1.png" alt="" />
+              <h4>Straberry</h4>
+            </div>
+            <div>
+              <img src="images/fruit2.png" alt="" />
+              <h4>Straberry</h4>
+            </div>
+            <div>
+              <img src="images/fruit3.png" alt="" />
+              <h4>Straberry</h4>
+            </div>
+            <div>
+              <img src="images/fruit4.png" alt="" />
+              <h4>Straberry</h4>
+            </div>
+            <div>
+              <img src="images/fruit5.png" alt="" />
+              <h4>Straberry</h4>
+            </div>
+          </div>
+        </div>
       </section>
     </header>
     <!-- Main section -->
-    <main class="container mx-auto px-5 ">
+    <main class="container mx-auto px-5">
       <!-- Deal of the day section -->
       <section class="max-w-7xl mx-auto my-12">
         <div class="flex items-center justify-between flex-col lg:flex-row">
@@ -295,7 +332,7 @@
           <!-- first card -->
           <div class="card bg-base-100 shadow-xl">
             <figure class="px-10 pt-10">
-              <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
+              <img src="images/fruit6.png" alt="Shoes" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center">
               <h2 class="card-title">12.90$ - 18.85$</h2>
@@ -346,7 +383,7 @@
                     </button>
                     <figure class="px-10 pt-10">
                       <img
-                        src="/images/fruit6.png"
+                        src="images/fruit6.png"
                         alt="Shoes"
                         class="rounded-xl"
                       />
@@ -408,7 +445,7 @@
           <!-- second card -->
           <div class="card bg-base-100 shadow-xl">
             <figure class="px-10 pt-10">
-              <img src="/images/fruit7.png" alt="Shoes" class="rounded-xl" />
+              <img src="images/fruit7.png" alt="Shoes" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center">
               <h2 class="card-title">12.90$ - 18.85$</h2>
@@ -459,7 +496,7 @@
                     </button>
                     <figure class="px-10 pt-10">
                       <img
-                        src="/images/fruit7.png"
+                        src="images/fruit7.png"
                         alt="Shoes"
                         class="rounded-xl"
                       />
@@ -521,7 +558,7 @@
           <!-- third card -->
           <div class="card bg-base-100 shadow-xl">
             <figure class="px-10 pt-10">
-              <img src="/images/fruit8.png" alt="Shoes" class="rounded-xl" />
+              <img src="images/fruit8.png" alt="Shoes" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center">
               <h2 class="card-title">12.90$ - 18.85$</h2>
@@ -572,7 +609,7 @@
                     </button>
                     <figure class="px-10 pt-10">
                       <img
-                        src="/images/fruit8.png"
+                        src="images/fruit8.png"
                         alt="Shoes"
                         class="rounded-xl"
                       />
@@ -634,7 +671,7 @@
           <!-- fourth card -->
           <div class="card bg-base-100 shadow-xl">
             <figure class="px-10 pt-10">
-              <img src="/images/fruit9.png" alt="Shoes" class="rounded-xl" />
+              <img src="images/fruit9.png" alt="Shoes" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center">
               <h2 class="card-title">12.90$ - 18.85$</h2>
@@ -685,7 +722,7 @@
                     </button>
                     <figure class="px-10 pt-10">
                       <img
-                        src="/images/fruit9.png"
+                        src="images/fruit9.png"
                         alt="Shoes"
                         class="rounded-xl"
                       />
@@ -772,7 +809,7 @@
               <div class="card bg-transparent">
                 <figure class="px-10 pt-10">
                   <img
-                    src="/images/member1.png"
+                    src="images/member1.png"
                     alt="Shoes"
                     class="rounded-xl"
                   />
@@ -800,7 +837,7 @@
               <div class="card l bg-transparent">
                 <figure class="px-10 pt-10">
                   <img
-                    src="/images/member2.png"
+                    src="images/member2.png"
                     alt="Shoes"
                     class="rounded-xl"
                   />
@@ -828,7 +865,7 @@
               <div class="card bg-transparent">
                 <figure class="px-10 pt-10">
                   <img
-                    src="/images/member3.png"
+                    src="images/member3.png"
                     alt="Shoes"
                     class="rounded-xl"
                   />
@@ -856,7 +893,7 @@
               <div class="card l bg-transparent">
                 <figure class="px-10 pt-10">
                   <img
-                    src="/images/member4.png"
+                    src="images/member4.png"
                     alt="Shoes"
                     class="rounded-xl"
                   />
@@ -1039,7 +1076,6 @@
       </section>
     </main>
     <!-- Footer section -->
-
     <footer
       class="footer footer-center container mx-auto lg:p-10 bg-base-200 text-base-content rounded bg-[#121212] text-white"
     >
@@ -1048,7 +1084,9 @@
         <a class="btn btn-ghost normal-case text-4xl">Fruit Burst</a>
       </div>
 
-      <div class="grid grid-cols-4 lg:grid-cols-6 gap-14 text-xl font-semibold mb-14 px-5">
+      <div
+        class="grid grid-cols-4 lg:grid-cols-6 gap-14 text-xl font-semibold mb-14 px-5"
+      >
         <a class="link link-hover">Home</a>
         <a class="link link-hover">About us</a>
         <a class="link link-hover">shop</a>
